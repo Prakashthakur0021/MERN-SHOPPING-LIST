@@ -14,7 +14,7 @@ const store = createStore(
     window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
   )
 );
-
+// 2nd method to do the same above thing(createStore)
 // const composeEnhancers = window._REDUX_DEVTOOLS_EXTENSION_COMPOSE_ || compose;
 // const store = createStore(
 //   rootReducer,
